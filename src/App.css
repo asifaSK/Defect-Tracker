@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  text-align: center;
+  border: 1px solid blue;
+  display: inline-block;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+h1{
+  color: blue;
+}
+
+p{
+  background-color: blue;
+  color:white;
+  text-align: center;
+  padding: 5px;
+}
+
+
+.login-credentials-div{
+  text-align: center;
+  padding: 10px;
+}
+
+button{
+  padding: 5px 15px;
+  color: white;
+  background-color: rgb(2, 20, 27);
+  font: bold;
+}
+button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+input{
+  padding: 5px;
+}
+
+.add-defects-div{
+  display: inline-block;
+  border: 2px solid green;
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+.add-defects-div-children{
+  margin: 5px;
+  padding: 5px;
+  text-align: left;
+}
+
+label{
+  margin: 10px;
+}
+
+.dotted-hr{
+  border-top: 1px dotted black;
+}
+
+.invalid-cred-p{
+  background-color: white;
+  color: red;
+}
+
+table {
+  border-collapse: collapse; /* This property removes spacing between table cells */
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black; /* Add a solid black border around each cell */
+  padding: 8px; /* Add some padding inside the cells */
+}
+
+th {
+  background-color: white; /* Add a background color to the table header cells */
+}
